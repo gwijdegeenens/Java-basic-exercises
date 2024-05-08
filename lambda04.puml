@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class SimpleTextPrinter {
++ {static} void print(String sentence)
+}
+
+@enduml

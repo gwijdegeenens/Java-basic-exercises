@@ -1,0 +1,13 @@
+
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class DuoUtil  {
++ {static} void printUpper(Duo<String> duo)
++ {static} void printSumStrict(Duo<Number> duo)
++ {static} void printSum(Duo<? extends Number> duo)
++ {static} <T> void printFirstElements(Duo<T> duo1, Duo<T> duo2)
+}
+
+@enduml

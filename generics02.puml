@@ -1,0 +1,15 @@
+
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class NumberDuo <E extends Number> {
+- E first
+- E second
++ Duo(E first, E second)
++ E getFirst()
++ E getSecond()
++ double sum ()
+}
+
+@enduml

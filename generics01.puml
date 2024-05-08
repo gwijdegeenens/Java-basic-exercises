@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Duo <E> {
+- E first
+- E second
++ Duo(E first, E second)
++ E getFirst()
++ E getSecond()
++ void swap()
+}
+
+@enduml

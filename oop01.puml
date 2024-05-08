@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Rectangle {
+	+ int width
+	+ int height
+	+ int x
+	+ int y
+}
+
+@enduml

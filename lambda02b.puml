@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TextPrinter {
+- String sentence
++ TextPrinter(String sentence)
++ void printProcessedWords(Function<String, String> processor)
+}
+
+class TextUtil {
++ {final} {static} String reverse(String)
+}
+@enduml

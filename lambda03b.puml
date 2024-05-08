@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TextPrinter {
++ {static} void printProcessedWords(Supplier<String> sentenceSupplier, Function<String, String> processor)
+}
+
+@enduml

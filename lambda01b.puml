@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TextPrinter {
+- String sentence
++ TextPrinter(String sentence)
++ void printFilteredWords(Predicate<String> filter)
+}
+
+@enduml
